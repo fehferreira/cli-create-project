@@ -20,6 +20,8 @@
   "author": "Felipe Silva",
   "license": "MIT",
   "dependencies": {
-    "esm": "^3.2.25"
+    "arg": "^4.1.0",
+    "esm": "^3.2.18",
+    "inquirer": "^6.2.2"
   }
 }
