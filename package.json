@@ -1,6 +1,6 @@
 {
   "name": "@fehferreira/create-project",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A CLI to bootstrap my new projects",
   "main": "src/index.js",
   "bin": {
@@ -23,7 +23,15 @@
     "arg": "^4.1.0",
     "chalk": "^2.4.2",
     "esm": "^3.2.18",
+    "execa": "^1.0.0",
     "inquirer": "^6.2.2",
-    "ncp": "^2.0.0"
-  }
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^0.2.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
 }
